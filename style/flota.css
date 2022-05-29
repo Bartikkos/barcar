@@ -134,10 +134,11 @@
 
     .pojazdy
     {
-        background-color: #dddddd;
+        background-color: whitesmoke;
         width: 100%;
-        height: 300px;
+        height: 1480px;
         text-align: center;
+        margin-bottom: 50px;
     }
     .pojazdy h2
     {
@@ -169,7 +170,7 @@
     {
         display: flex;
         justify-content: space-evenly;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         display: flex;
     }
     .pojazdy figure
