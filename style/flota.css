@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    *
+    {
+        background-color: whitesmoke;
+        /* width: 100%; */
+        /* height: 100%; */
+    }
+    html
+    {
+        background-color: #1e1e1e;
+    }
+    body, section
+    {
+        background-color: #dddddd;
+    }
+
+
+/* BANER */
+
+
+    header
+    {
+        height: 80px;
+    }
+    header img
+    {
+        height: 80px;
+        /* position: relative; */
+        /* left: px; */
+        float: right;
+        /* background-color: aqua; */
+        position: relative;
+        right: 40px;
+    }
+    .logo
+    {
+        width: 40%;
+        height: 50px;
+        float: left;
+        /* padding: auto; */
+        /* background-color: aqua; */
+        position: relative;
+    }
+    nav
+    {
+        width: 40%;
+        float: left;
+        margin: auto;
+        /* background-color: lightblue; */
+        height: 80px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    nav button
+    {
+        width: 100%;
+        height: 100%;
+        /* position: relative; */
+        /* left: -40px; */
+        /* top: -15px; */
+        background-color: whitesmoke;
+        border: 0px;
+        border-top: 3px solid whitesmoke;
+        transition: color 0.3s;
+        font-family: montserrat;
+        /* padding-top: ; */
+        color: #000;
+        font-weight: bold;
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    nav button:hover
+    {
+        border-top: 3px solid #0080ff;
+        color: #0080ff;
+        cursor: pointer;
+    }
+
+
+/* FLOTA */
+
+
+    .flota
+    {
+        background-color: #dddddd;
+        width: 100%;
+        height: 300px;
+    }
+    .flota h1
+    {
+        background-color: #0080ff;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 40px;
+        font-family: montserrat;
+    }
+    .flota img
+    {
+        /* width: 80%; */
+        /* float: left; */
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0);
+        margin-left: 80px;
+        margin-right: 80px;
+        transition: transform 0.2s ease-in-out;
+    }
+    /* .flota a
+    {
+        height: 100%;
+        width: 30%;
+    } */
+    .flota div
+    {
+        background-color: whitesmoke;
+        width: 100%;
+        float: left;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .flota img:hover
+    {
+        transform: scale(1.1);
+    }
+
+
+/* POJAZDY */
+
+
+    .pojazdy
+    {
+        background-color: #dddddd;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    .pojazdy h2
+    {
+        font-family: montserrat;
+        color: #0080ff;
+        font-size: 30px;
+    }
+    .pojazdy div
+    {
+        background-color: whitesmoke;
+        width: 100%;
+        float: left;
+        /* height: 150px; */
+    }
+    .pojazdy img:hover
+    {
+        transform: scale(1.1);
+        border: 2px solid #7FD6FC;
+    }
+    .pojazdy img
+    {
+        width: 70%;
+        transition: all 0.2s ease-in-out;
+        border: 2px solid #0080ff;
+        border-radius: 15px;
+        z-index: 100;
+    }
+    .pojazdy .wiersz_aut
+    {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .pojazdy figure
+    {
+        width: 100%;
+        height: 100%;
+        /* display: flex; */
+        transition: all 0.8s;
+    }
+    .pojazdy figcaption
+    {
+        visibility: hidden;
+        border: 2px solid #0080ff;
+        width: 27.5%;
+        height: 45px;
+        z-index: 1000;
+        /* top: 30px; */
+        margin-top: 20px;
+        transition: all 0.1s;
+        /* transition: position 0s; */
+        scale: 0.5;
+        z-index: 400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pojazdy figure:hover figcaption
+    {
+        visibility: visible;
+        /* position: relative; */
+        transform: scale(1.02);
+        z-index: 500;
+        transition-delay: 0.5s;
+    }
+    .pojazdy figure:hover
+    {
+        margin-bottom: 55px;
+    }
+    .fig_lewy figcaption
+    {
+        position: absolute;
+        /* left: 2%; */
+    }
+    .fig_srodek figcaption
+    {
+        position: absolute;
+        /* left: 2%; */
+    }
+    .fig_prawy figcaption
+    {
+        position: absolute;
+        /* right: 2%; */
+        float: right;
+    }
+
+
+/* STOPKA */
+
+
+    footer
+    {
+        width: 100%;
+        background-color: #1e1e1e;
+        height: 400px;
+        color: #f0f0f0;
+        /* text-align: center; */
+        padding: auto;
+    }
+    footer div
+    {
+        margin: 0;
+        padding: 10px;
+    }
+    footer p, footer img, footer h2, footer p a
+    {
+        background-color: #1e1e1e;
+        margin: 5px;
+    }
+    footer > div > div > p
+    {
+        width: 180px;
+        scroll-margin-right: 0;
+        /* display: inline; */
+        font-size: 18px;
+    }
+    footer img
+    {
+        height: 18px;
+        float: left;
+        position: relative;
+        left: 10px;
+    }
+    .info
+    {
+        float: left;
+        width: 200px;
+        background-color: #1e1e1e;
+        /* margin-top: 10px; */
+        height: 330px;
+        /* padding-left: 100px; */
+        float: right;
+        position: relative;
+        right: 0px;
+    }
+    .linki
+    {
+        float: left;
+        width: 200px;
+        background-color: #1e1e1e;
+        /* margin-top: 10px; */
+        height: 330px;
+        float: left;
+        position: relative;
+        left: 30px;
+    }
+    #prawa
+    {
+        float: left;
+        background-color: #1e1e1e;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        height: 20px;
+    }
+    .foot
+    {
+        width: 50%;
+        height: 370px;
+        background-color: #1e1e1e;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    .godz
+    {
+        background-color: #1e1e1e;
+        font-size: 14px;
+        padding-left: 30px;
+    }
+    footer a
+    {
+        color: #f0f0f0;
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+    }
+    footer a:hover
+    {
+        color: #0080ff;
+    }
+    footer a:active
+    {
+        color: #7FD6FC;
+    }
+
+
