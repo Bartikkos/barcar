@@ -233,12 +233,43 @@
     }
 
 
-.przerwa
-{
-    width: 100%;
-    height: 50px;
-    background-color: #0080ff;
-}
+/* COFNIJ */
+
+
+    .cofnij
+    {
+        width: 100%;
+        height: 150px;
+        background-color: #dddddd;
+        /* color: whitesmoke; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cofnij div
+    {
+        background-color: #0080ff;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cofnij a
+    {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 30px;
+        background-color: #0080ff;
+        transition: all 0.2s;
+        font-family: montserrat;
+    }
+    .cofnij a:hover
+    {
+        color: #7FD6FC;
+        transform: scale(1.1);
+    }
+
 
 /* KROTKI */
 
