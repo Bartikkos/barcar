@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oferta</title>
-    <link rel="stylesheet" href="/style/flota.css">
+    <link rel="stylesheet" href="/style/oferta.css">
     <link rel="icon" type="image/png" href="/img_main/logo.png" sizes="96x96" />
 </head>
 <body>
@@ -22,13 +22,156 @@
     </header>
     <section>
         <article class="wybor">
-
+            <form action="#dlugi">  
+                <button type="submit">
+                    <img src="/ikony/kalendarz.png" alt="kalendarz">
+                    <p>Wynajem długoterminowy</p>
+                </button>
+            </form>
+            <form action="#krotki">
+                <button type="submit">
+                    <img src="/ikony/zegar.png" alt="zegar">
+                    <p>Wynajem krótkoterminowy</p>
+                </button>
+            </form>
         </article>
-        <article class="dlugi">
-
+        <article id="dlugi">
+            <h2>Wynajem długoterminowy</h2>
+            <div class="trcen">
+                <h3>Cennik wynajmu długoterminowego</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Klasa Pojazdu</th>
+                            <th>1-3 miesięcy*</th>
+                            <th>4-6 miesięcy*</th>
+                            <th>7-12 miesięcy*</th>
+                            <th>13+ miesięcy*</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Samochody Rodzinne</td>
+                            <td>2950 PLN</td>
+                            <td>2900 PLN</td>
+                            <td>2850 PLN</td>
+                            <td>2800 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Samochody Sportowe</td>
+                            <td>7800 PLN</td>
+                            <td>7750 PLN</td>
+                            <td>7700 PLN</td>
+                            <td>7650 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Samochody Miejskie</td>
+                            <td>1650 PLN</td>
+                            <td>1600 PLN</td>
+                            <td>1550 PLN</td>
+                            <td>1500 PLN</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>*Cena za 1 miesiąc przy miesięcznym limicie 2000km</p>
+                <h4>Dodatkowe opłaty</h4>
+                <table>
+                    <tr>
+                        <td>Limit miesięczny 3000km</td>
+                        <td>200zł</td>
+                    </tr>
+                    <tr>
+                        <td>Limit miesięczny 4000km</td>
+                        <td>660zł</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="opisdl">
+                <div class="dlaczego">
+                    <h3>Dlaczego warto?</h3>
+                    <ol>
+                        <li>w trakcie wynajmu, gdy okaże się, <wbr>że zmieniłeś zdanie co do grupy auta <wbr>bezkosztowo zamienimy samochód na inny</li>
+                        <li>stały czynsz wynajmu pozwoli na zaplanowanie własnego budżetu, <wbr>a koszt samochodu w żaden sposób <wbr>nie wpłynie na Twoją zdolność kredytową</li>
+                        <li>masz możliwość wykupu samochodu w bardzo atrakcyjnej cenie</li>
+                    </ol>
+                </div>
+                <div class="samochod">
+                    <h3>Samochody</h3>
+                    <h4>W ofercie długoterminowej proponujemy samochody każdej klasy</h4>
+                    <ol>
+                        <li>samochody rodzinne</li>
+                        <li>samochody sportowe</li>
+                        <li>samochody miejskie</li>
+                    </ol>
+                </div>
+                <div class="zapytaj">
+                    <h2>ZAPYTAJ O OFERTĘ</h2>
+                    <h3><a href="mailto:oferta@barcar.pl">oferta@barcar.pl</a> lub <a href="tel:+48692137420">+48 692 137 420</a></h3>
+                    <h5>oferty zostaną przedstawione w godz. 8.00 - 17.00</h5>
+                    <h5>Przedstawiona oferta cenowa na tej podstronie ma charakter informacyjny<br>
+                        i nie stanowi oferty handlowej w rozumieniu Art.66 § 1 Kodeksu Cywilnego.<br>
+                        Dostępność i warunki usługi mogą ulec zmianie.<br>
+                        Szczegółowe warunki usługi określa umowa najmu.</h5>
+                </div>
+            </div>
         </article>
-        <article class="krotki">
-
+        <div class="przerwa"></div>
+        <article id="krotki">
+            <h2>Wynajem krótkoterminowy</h2>
+            <div class="krtel">
+            <h3>Telefoniczna rezerwacja samochodu</h3>
+                <ol>
+                    <li>Wybierz pojazd, który chcesz wynająć</li>
+                    <li>Konsultant zapyta o termin wynajmu pojazdu</li>
+                    <li>Operator pobierze dane potrzebne do wprowadzenia rezerwacji - znacznie przyspieszy to wydanie pojazdu w biurze</li>
+                    <li>Potrzebne dane:
+                        <ul>
+                            <li class="pod">KLIENT INDYWIDUALNY (imię i nazwisko, adres zameldowania, pesel i numer dowodu, numer prawo jazdy, wydawca karty kredytowej)</li>
+                            <li class="pod">FIRMA (nazwa firmy, nip firmy, wpis do ewidencji lub krs, dane kierowcy (patrz klient indyw.)</li>
+                        </ul>
+                    </li>
+                    <li>Z konsultantem uzgodnisz formę płatności oraz kaucji</li>
+                    <li>Na koniec zostaniesz poinformowany, że rezerwacja została przyjęta.</li>
+                </ol>
+            </div>
+            <div class="krcen">
+                <h2>Cennik</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Klasa Pojazdu</th>
+                            <th>1-4 dni*</th>
+                            <th>5-14 dni*</th>
+                            <th>14-31 dni*</th>
+                            <th>Kaucja zwrotna</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Samochody Rodzinne</td>
+                            <td>199 PLN</td>
+                            <td>179 PLN</td>
+                            <td>169 PLN</td>
+                            <td>750 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Samochody Sportowe</td>
+                            <td>599 PLN</td>
+                            <td>549 PLN</td>
+                            <td>499 PLN</td>
+                            <td>4000 PLN</td>
+                        </tr>
+                        <tr>
+                            <td>Samochody Miejskie</td>
+                            <td>129 PLN</td>
+                            <td>119 PLN</td>
+                            <td>109 PLN</td>
+                            <td>300 PLN</td>
+                        </tr>
+                </tbody>
+                </table>
+                <p>*Cena za 1 dzień</p>
+            </div>
         </article>
     </section>
     <footer>
