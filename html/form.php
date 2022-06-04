@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Bartosz Kościański">
-    <title>BarCar</title>
-    <link href="/style/main.css" rel="stylesheet">
+    <title>Kontakt</title>
+    <link href="/style/form.css" rel="stylesheet">
     <link href="/style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="/img_main/logo.png" sizes="96x96" />
 </head>
@@ -23,26 +23,26 @@
         </nav>
     </header>
     <section>
-        <article class="ad">
-            <p>O każdej porze roku<br>i na każdą okazję</p>
-            <p class="akapit_oferta">Sprawdź naszą <a href="/html/oferta.html">ofertę</a> już teraz!</p>
-        </article>
-        <article class="flota">
-            <h1> Nasza flota:</h1>
+        <article class="cofnij">
             <div>
-                <a href="/html/flota.html#rodzinne"><img src="/img_main/rodzina.png" alt="samochody rodzinne"></a>
-                <a href="/html/flota.html#sportowe"><img src="/img_main/sport.png" alt="samochody sportowe"></a>
-                <a href="/html/flota.html#miejskie"><img src="/img_main/miasto.png" alt="samochody miejskie"></a>
+                <a href="/index.html">POWRÓT DO STRONY GŁÓWNEJ</a>
             </div>
         </article>
-        <article class="oddzial">
-            <h1>Nasze oddziały:</h1>
-            <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d749.4665067424033!2d19.107050980027463!3d50.81458785641533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4710b5d7b7f840c7%3A0xcc31600bad675a19!2sTechniczne%20Zak%C5%82ady%20Naukowe%20im.%20gen.%20W%C5%82adys%C5%82awa%20Sikorskiego!5e0!3m2!1spl!2spl!4v1652111256218!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="adres">
-                <h3>Oddział Częstochowa</h3>
-                <p>Jasnogórska 84/90,<br>42-200 Częstochowa</p>
+        <article class="form">
+            <div class="php">
+            <?php
+                if(isset($_POST['email']) && isset($_POST['imie']) && isset($_POST['mess']))
+                {
+                    echo "<h1>Twoja wiadomość:</h1>";
+                    $email=$_POST['email'];
+                    $imie=$_POST['imie'];
+                    $mess=$_POST['mess'];
+                    echo "<ul><li>Adres email: $email</li>";
+                    echo "<li>Imię: $imie</li>";
+                    echo "<li>Wiadomość: $mess</li></ul>";
+                    echo "<h1>została pomyślnie wysłana. Nasz konsultant skontaktuje się z Tobą w ciągu 48h. Dziękujemy za skorzystanie z naszych usług.</h1>";
+                }
+            ?>
             </div>
         </article>
     </section>
