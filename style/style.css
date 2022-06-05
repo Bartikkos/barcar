@@ -225,7 +225,8 @@
         height: 400px;
         color: #f0f0f0;
         /* text-align: center; */
-        padding: auto;
+        /* padding: auto; */
+        display: flex;
     }
     footer div
     {
@@ -237,7 +238,7 @@
         background-color: #1e1e1e;
         margin: 5px;
     }
-    footer > div > div > p
+    footer > div > p
     {
         width: 180px;
         scroll-margin-right: 0;
@@ -253,7 +254,7 @@
     }
     .info
     {
-        float: left;
+        /* float: left; */
         width: 200px;
         background-color: #1e1e1e;
         /* margin-top: 10px; */
@@ -265,7 +266,7 @@
     }
     .linki
     {
-        float: left;
+        /* float: left; */
         width: 200px;
         background-color: #1e1e1e;
         /* margin-top: 10px; */
@@ -282,15 +283,6 @@
         text-align: center;
         margin: 0;
         height: 20px;
-    }
-    .foot
-    {
-        width: 50%;
-        height: 370px;
-        background-color: #1e1e1e;
-        margin: 0;
-        padding: 0;
-        float: left;
     }
     .godz
     {

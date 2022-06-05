@@ -109,7 +109,7 @@
         margin-top: 20px;
         transition: all 0.1s;
         /* transition: position 0s; */
-        scale: 0.5;
+        transform: scale(0.5);
         z-index: 400;
         display: flex;
         justify-content: center;
